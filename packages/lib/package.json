@@ -1,0 +1,21 @@
+{
+  "name": "@nextjs-tester/lib",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "dist/index.js",
+      "require": "dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "lint": "oxlint .",
+    "format": "oxfmt ."
+  }
+}

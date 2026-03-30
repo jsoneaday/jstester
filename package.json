@@ -1,0 +1,25 @@
+{
+  "name": "derrick",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "npm install",
+    "format": "oxfmt .",
+    "lint": "oxlint .",
+    "test": "vitest",
+    "typecheck": "tsc -p packages/lib/tsconfig.json --noEmit",
+    "next-app:dev": "npm --workspace ./packages/next-app run dev",
+    "next-app:build": "npm --workspace ./packages/next-app run build",
+    "next-app:test": "npm --workspace ./packages/next-app run test"
+  },
+  "devDependencies": {
+    "jsdom": "^29.0.1",
+    "oxfmt": "^0.42.0",
+    "oxlint": "^1.57.0",
+    "typescript": "6.0.2",
+    "vite": "^8.0.3",
+    "vitest": "^4.1.2"
+  }
+}

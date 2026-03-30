@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "oxlabs.oxfmt",
+  "[javascript]": {
+    "editor.defaultFormatter": "oxlabs.oxfmt"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "oxlabs.oxfmt"
+  },
+  "oxfmt.enable": true,
+  "oxfmt.formatOnSave": true
+}
