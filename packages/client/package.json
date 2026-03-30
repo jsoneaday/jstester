@@ -1,5 +1,5 @@
 {
-  "name": "@nextjs-tester/next-app",
+  "name": "@jstester/client",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -10,6 +10,7 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@jstester/lib": "workspace:*",
     "next": "^16.2.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"

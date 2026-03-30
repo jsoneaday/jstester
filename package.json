@@ -1,5 +1,5 @@
 {
-  "name": "derrick",
+  "name": "jstester",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -11,9 +11,10 @@
     "lint": "oxlint .",
     "test": "vitest",
     "typecheck": "tsc -p packages/lib/tsconfig.json --noEmit",
-    "next-app:dev": "npm --workspace ./packages/next-app run dev",
-    "next-app:build": "npm --workspace ./packages/next-app run build",
-    "next-app:test": "npm --workspace ./packages/next-app run test"
+    "lib:build": "npm --workspace ./packages/lib run build",
+    "client:dev": "npm --workspace ./packages/client run dev",
+    "client:build": "npm --workspace ./packages/client run build",
+    "client:test": "npm --workspace ./packages/client run test"
   },
   "devDependencies": {
     "jsdom": "^29.0.1",
