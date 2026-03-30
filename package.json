@@ -4,6 +4,7 @@
   "workspaces": [
     "packages/*"
   ],
+  "license": "MIT",
   "scripts": {
     "bootstrap": "npm install",
     "format": "oxfmt .",

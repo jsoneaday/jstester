@@ -1,1 +1,1 @@
-## This is built to test developer knowledge of React and NextJS. It may grow over time to include other technologies like TypeScript, Node, NPM, etc.
+## This project is built to test developer knowledge of React and NextJS. It may grow over time to include other technologies like TypeScript, Node, NPM, etc.
